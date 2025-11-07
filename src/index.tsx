@@ -3,10 +3,10 @@ import './index.css'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import { App } from './App.tsx'
+import { Main } from './ui/organisms/Main/Main.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <Main />
   </StrictMode>,
 )
